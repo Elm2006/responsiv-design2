@@ -1,0 +1,15 @@
+
+    .wrapper>section{
+        margin: 0 auto;
+        background-color: yellow;
+        border-radius: 90%;
+        width: 90vh;
+    }
+@media screen and (min-height:50px) { 
+    .wrapper{
+        margin: 0 auto;
+        display: grid;
+        height: 90vh;
+        background-color: blue;
+    }
+}
