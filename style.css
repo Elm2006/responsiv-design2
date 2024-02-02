@@ -1,15 +1,14 @@
-
-    .wrapper>section{
-        margin: 0 auto;
-        background-color: yellow;
-        border-radius: 90%;
-        width: 90vh;
-    }
-@media screen and (min-height:50px) { 
-    .wrapper{
-        margin: 0 auto;
-        display: grid;
-        height: 90vh;
-        background-color: blue;
-    }
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    height: 40vh;
+    width: 70vh;
+    background-color: blue;
+}
+section>section{
+    display: grid;
+    border-radius: 90%;
+    background-color: yellow;
+    height: 40vh;
+    width: 40vh;
 }
